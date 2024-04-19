@@ -1,3 +1,5 @@
 body{
-    background-color: #807098;
+    background-image: url("./build/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

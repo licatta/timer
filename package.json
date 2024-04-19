@@ -1,14 +1,14 @@
 {
-  "name": "anabolic",
+  "name": "countdown",
   "version": "1.0.0",
-  "description": "Playlist anabolica para ficar gigante",
+  "description": "CountDown do Terceirão 2024",
   "main": "index.js",
   "scripts": {
     "start": "electron index.js"
   },
   "build": {
-    "appId": "anabolic.app",
-    "productName": "Anabolic",
+    "appId": "countdown.app",
+    "productName": "countdown",
     "directories": {
       "output": "dist"
     },
@@ -25,5 +25,8 @@
       "target": "nsis",
       "icon": "build/icon.jpg"
     }
+  },
+  "dependencies": {
+    "electron": "^30.0.1"
   }
 }
