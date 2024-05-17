@@ -28,7 +28,7 @@ function createWindow() {
         fullscreen: true,
 
         //Usamos fram: false para remover as opções padrao do electron ao redor da janela do nosso app
-        // frame: false,
+        frame: false,
 
         //Aqui definimos o tamanho da janela do nosso apicativo Desktop
         width: 1280,
@@ -79,5 +79,3 @@ app.on("activate", () => {
       createWindow();
     }
   });
-
-
