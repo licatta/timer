@@ -39,7 +39,7 @@ function onDayChange() {
     const currentDay = new Date().getDate()
     
     if (main.className != `bg${currentDay}`) {
-        main.className = `bg${currentDay}`
+        main.className = `bg${16}`
     }
 }
 
