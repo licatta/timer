@@ -78,6 +78,29 @@ h1 {
     font-size: 1.5rem;
 }
 
+.icon {
+
+    display: flex;
+    
+    z-index: 3;
+
+    position: absolute;
+
+    width: 98%;
+
+    height: 98%;
+
+    align-items: end;
+
+    justify-content: end;
+
+}
+
+.icon img {
+
+    width: 7%;
+
+}
 .bg1 {
     background-image: url("1.jpg");
 }
